@@ -1,0 +1,30 @@
+body {
+	height: auto;
+}
+
+#about-section {
+	margin-top: 100px;
+}
+
+.about-card {
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	border-radius: 30px;
+	padding: 30px;
+	margin-bottom: 100px;
+}
+
+.card-title {
+	letter-spacing: 4px;
+	margin-bottom: 20px;
+}
+
+.card-description {
+	line-height: 30px;
+}
+
+.about-icon {
+	font-size: 200%;
+	margin-bottom: 10px;
+}

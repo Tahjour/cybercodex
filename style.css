@@ -1,0 +1,100 @@
+/*General Selectors--------------------------------------------------------------------------------------------------------------------- */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('space_background.jpg');
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	font-weight: 400;
+	height: 100vh;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+h1,
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+/*Classes--------------------------------------------------------------------------------------------------------------------- */
+#main-message {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	font-size: 4rem;
+	width: 100%;
+	height: calc(100vh - 120px);
+}
+
+.main-button {
+	background-color: #ff9800;
+	color: #fff;
+	height: 50px;
+	width: 200px;
+	margin-top: 30px;
+	border: 0;
+	border-radius: 30px;
+	font-size: 25px;
+	transition: box-shadow 0.2s, border 0.2s;
+}
+
+.main-button:hover {
+	box-shadow: inset 0 0 50px rgb(109, 229, 240), inset 20px 0px 80px rgb(109, 229, 240),
+		inset -20px 0 80px rgb(0, 0, 0), inset 20px 0 300px rgb(109, 229, 240), inset -20px 0 300px rgb(0, 0, 0),
+		0 0 50px rgb(109, 229, 240), -10px 0 80px rgb(109, 229, 240), 10px 0 80px rgb(0, 0, 0);
+	border: 1px solid rgb(109, 229, 240);
+}
+
+.topnav {
+	float: right;
+	list-style: none;
+	margin-top: 5px;
+}
+
+.topnav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.topnav li a:link,
+.topnav li a:visited {
+	padding-bottom: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+}
+
+.topnav li a:hover,
+.topnav li a:active {
+	border-bottom: 2px solid #ff9800;
+	-webkit-transition: border-bottom 0.2s;
+	-o-transition: border-bottom 0.2s;
+	transition: border-bottom 0.2s;
+}
+
+.active {
+	border-bottom: 2px solid #ff9800;
+	padding-bottom: 8px;
+}
+
+/*IDs--------------------------------------------------------------------------------------------------------------------- */
+#wrapper {
+	width: 80%;
+	height: 100vh;
+	margin: 0px auto;
+}
+
+#header {
+	padding-top: 10px;
+	height: 60px;
+	width: 100%;
+}
