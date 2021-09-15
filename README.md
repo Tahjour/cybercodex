@@ -1,1 +1,1 @@
-This is a simple website project I've worked on.
+This is a simple website project I've worked on. I have plans of refactoring it completely.
